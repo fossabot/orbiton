@@ -29,7 +29,7 @@ Screenshot of the VTE GUI application that can be found in the `ko` directory, r
 
 ## Quick start
 
-With Go 1.17 or later, `o` can be installed like this:
+With Go 1.18 or later, `o` can be installed like this:
 
     go install github.com/xyproto/o/v2@latest
 
@@ -406,7 +406,7 @@ One way of building with `gccgo` and `upx`:
 
     go build -mod=vendor -gccgoflags '-Os -s' && upx o
 
-It's **9.5M** when built with Go 1.17 and no particular build flags are given.
+It's **9.5M** when built with Go 1.18 and no particular build flags are given.
 
 ## Jumping to a specific line when opening a file
 
